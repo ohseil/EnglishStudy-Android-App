@@ -12,9 +12,9 @@ Android application for personal english study
 - User can use bookmark system.
 - User have to do google login.
 
-### Server github uri   
+#### Server github uri   
 https://github.com/ohseil/EnglishApplicationServer   
-### managing application uri   
+#### managing application github uri   
 https://github.com/ohseil/EnglishStudy-Manage-Android-App   
 
 ## Reference   
