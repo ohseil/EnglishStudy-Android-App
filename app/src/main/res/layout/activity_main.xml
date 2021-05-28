@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#aa222222"
+    android:paddingBottom="20dp"
+    android:paddingTop="20dp"
+    android:fillViewport="true"
+    tools:context="com.example.seil.tppracticing.activity.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/b1"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:background="#ffffdd00"
+            android:text="Beginner"
+            android:textColor="#ff000000"
+            android:textSize="20dp"
+            android:onClick="b1_Clicked"
+            />
+
+        <Button
+            android:id="@+id/b2"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:background="#dd0000cc"
+            android:text="Challenger"
+            android:textColor="#ff000000"
+            android:textSize="20dp"
+            android:onClick="b2_Clicked"
+            android:layout_marginTop="20dp"
+            />
+
+        <Button
+            android:id="@+id/b3"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:background="#ddcc0000"
+            android:text="Flyer"
+            android:textColor="#ff000000"
+            android:textSize="20dp"
+            android:onClick="b3_Clicked"
+            android:layout_marginTop="20dp"
+            />
+
+        <Button
+            android:id="@+id/b4"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:background="#ffffffff"
+            android:text="My List"
+            android:textColor="#ff000000"
+            android:textSize="20dp"
+            android:onClick="b4_Clicked"
+            android:layout_marginTop="20dp"
+            />
+
+    </LinearLayout>
+
+    </RelativeLayout>
+
+    <!--<Button
+        android:id="@+id/b5"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="#ff000000"
+        android:text="Business"
+        android:textColor="#ffffffff"
+        android:textSize="20dp"
+        android:onClick="b5_Clicked"
+        />-->
+
+</android.support.v4.widget.NestedScrollView>

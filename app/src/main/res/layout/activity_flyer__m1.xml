@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff660000"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp"
+    android:fillViewport="true"
+    tools:context="com.example.seil.tppracticing.activity.Flyer_M1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/b1"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:background="@drawable/border"
+                android:text="관념어"
+                android:textSize="15dp"
+                android:textColor="#ff000000"
+                />
+
+            <Button
+                android:id="@+id/b2"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/border"
+                android:text="Phrasal Verbs(확장 포함)"
+                android:textSize="15dp"
+                android:textColor="#ff000000"
+                />
+
+            <Button
+                android:id="@+id/b3"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/border"
+                android:text="2형식의 내용을 담고 있는 5형식"
+                android:textSize="15dp"
+                android:textColor="#ff000000"
+                />
+
+            <Button
+                android:id="@+id/b4"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/border"
+                android:text="Verb Clustering"
+                android:textSize="15dp"
+                android:textColor="#ff000000"
+                />
+
+            <Button
+                android:id="@+id/b5"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/border"
+                android:text="전치사 with"
+                android:textSize="15dp"
+                android:textColor="#ff000000"
+                />
+
+            <Button
+                android:id="@+id/b6"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/border"
+                android:text="with 덧붙임 구문"
+                android:textSize="15dp"
+                android:textColor="#ff000000"
+                />
+
+            <Button
+                android:id="@+id/b7"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/border"
+                android:text="자동사의 수동태"
+                android:textSize="15dp"
+                android:textColor="#ff000000"
+                />
+
+            <Button
+                android:id="@+id/b8"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/border"
+                android:text="수동태 (끝에 부사)"
+                android:textSize="15dp"
+                android:textColor="#ff000000"
+                />
+
+            <Button
+                android:id="@+id/b9"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/border"
+                android:text="타동사의 수동태"
+                android:textSize="15dp"
+                android:textColor="#ff000000"
+                />
+
+            <Button
+                android:id="@+id/b10"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/border"
+                android:text="동형사형의 수동태"
+                android:textSize="15dp"
+                android:textColor="#ff000000"
+                />
+
+            <Button
+                android:id="@+id/b11"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/border"
+                android:text="4형식,5형식,subjunctive가 변한 수동태"
+                android:textSize="15dp"
+                android:textColor="#ff000000"
+                />
+
+            <Button
+                android:id="@+id/b12"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/border"
+                android:text="수동태 의문문"
+                android:textSize="15dp"
+                android:textColor="#ff000000"
+                />
+
+            <Button
+                android:id="@+id/b13"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/border"
+                android:text="whose,복합관계사"
+                android:textSize="15dp"
+                android:textColor="#ff000000"
+                />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</android.support.v4.widget.NestedScrollView>

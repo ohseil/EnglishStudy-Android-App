@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff660000"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp"
+    android:fillViewport="true"
+    tools:context=".activity.Flyer_Verb">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/b1"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:text="1. Admit"
+                    android:paddingLeft="10dp"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/border"
+                    android:textColor="#ff000000"
+                    />
+
+                <Button
+                    android:id="@+id/b2"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:text="2. Agree"
+                    android:paddingLeft="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/border"
+                    android:textColor="#ff000000"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp">
+
+                <Button
+                    android:id="@+id/b3"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:text="3. Amuse"
+                    android:paddingLeft="10dp"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/border"
+                    android:textColor="#ff000000"
+                    />
+
+                <Button
+                    android:id="@+id/b4"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:text="4. Annoy"
+                    android:paddingLeft="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/border"
+                    android:textColor="#ff000000"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp">
+
+                <Button
+                    android:id="@+id/b5"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:text="5. Believe"
+                    android:paddingLeft="10dp"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/border"
+                    android:textColor="#ff000000"
+                    />
+
+                <Button
+                    android:id="@+id/b6"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:text="6. Blame"
+                    android:paddingLeft="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/border"
+                    android:textColor="#ff000000"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp">
+
+                <Button
+                    android:id="@+id/b7"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:text="7. Change"
+                    android:paddingLeft="10dp"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/border"
+                    android:textColor="#ff000000"
+                    />
+
+                <Button
+                    android:id="@+id/b8"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:text="8. Charge"
+                    android:paddingLeft="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/border"
+                    android:textColor="#ff000000"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp">
+
+                <Button
+                    android:id="@+id/b9"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:text="9. Check"
+                    android:paddingLeft="10dp"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/border"
+                    android:textColor="#ff000000"
+                    />
+
+                <Button
+                    android:id="@+id/b10"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:text="10. Clog"
+                    android:paddingLeft="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/border"
+                    android:textColor="#ff000000"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp">
+
+                <Button
+                    android:id="@+id/b11"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:text="11. Cover"
+                    android:paddingLeft="10dp"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/border"
+                    android:textColor="#ff000000"
+                    />
+
+                <Button
+                    android:id="@+id/b12"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:text="12. Decide"
+                    android:paddingLeft="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/border"
+                    android:textColor="#ff000000"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp">
+
+                <Button
+                    android:id="@+id/b13"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:text="13. Deny"
+                    android:paddingLeft="10dp"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/border"
+                    android:textColor="#ff000000"
+                    />
+
+                <Button
+                    android:id="@+id/b14"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:text="14. Develop"
+                    android:paddingLeft="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/border"
+                    android:textColor="#ff000000"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp">
+
+                <Button
+                    android:id="@+id/b15"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:text="15. Die"
+                    android:paddingLeft="10dp"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/border"
+                    android:textColor="#ff000000"
+                    />
+
+                <Button
+                    android:id="@+id/b16"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:text="16. Do"
+                    android:paddingLeft="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/border"
+                    android:textColor="#ff000000"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp">
+
+                <Button
+                    android:id="@+id/b17"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:text="17. Embarrass"
+                    android:textSize="13dp"
+                    android:paddingLeft="10dp"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/border"
+                    android:textColor="#ff000000"
+                    />
+
+                <Button
+                    android:id="@+id/b18"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:text="18. Finish"
+                    android:paddingLeft="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/border"
+                    android:textColor="#ff000000"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp">
+
+                <Button
+                    android:id="@+id/b19"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:text="19. Follow"
+                    android:paddingLeft="10dp"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/border"
+                    android:textColor="#ff000000"
+                    />
+
+                <Button
+                    android:id="@+id/b20"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:text="20. Go"
+                    android:paddingLeft="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/border"
+                    android:textColor="#ff000000"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp">
+
+                <Button
+                    android:id="@+id/b21"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:text="21. Invite"
+                    android:paddingLeft="10dp"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/border"
+                    android:textColor="#ff000000"
+                    />
+
+                <Button
+                    android:id="@+id/b22"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:text="22. Lay"
+                    android:paddingLeft="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/border"
+                    android:textColor="#ff000000"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp">
+
+                <Button
+                    android:id="@+id/b23"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:text="23. Leave"
+                    android:paddingLeft="10dp"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/border"
+                    android:textColor="#ff000000"
+                    />
+
+                <Button
+                    android:id="@+id/b24"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:text="24. Lie"
+                    android:paddingLeft="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/border"
+                    android:textColor="#ff000000"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp">
+
+                <Button
+                    android:id="@+id/b25"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:text="25. Live"
+                    android:paddingLeft="10dp"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/border"
+                    android:textColor="#ff000000"
+                    />
+
+                <Button
+                    android:id="@+id/b26"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:text="26. Load"
+                    android:paddingLeft="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/border"
+                    android:textColor="#ff000000"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp">
+
+                <Button
+                    android:id="@+id/b27"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:text="27. Pay"
+                    android:paddingLeft="10dp"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/border"
+                    android:textColor="#ff000000"
+                    />
+
+                <Button
+                    android:id="@+id/b28"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:text="28. Pray"
+                    android:paddingLeft="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/border"
+                    android:textColor="#ff000000"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp">
+
+                <Button
+                    android:id="@+id/b29"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:text="29. Tip"
+                    android:paddingLeft="10dp"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/border"
+                    android:textColor="#ff000000"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</android.support.v4.widget.NestedScrollView>
