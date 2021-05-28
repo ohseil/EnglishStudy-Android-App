@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.seil.tppracticing">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app_icon"
+        android:label="TP"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name=".activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.Q_View" />
+        <activity android:name=".activity.Flyer_M1" />
+        <activity android:name=".activity.Flyer_M3" />
+        <activity android:name=".activity.Sub_Flyer" />
+        <activity android:name=".activity.Flyer_M2" />
+        <activity android:name=".activity.Flyer_M4" />
+        <activity android:name=".activity.Flyer_Verb" />
+        <activity android:name=".activity.Challenger" />
+        <activity android:name=".activity.Beginner" />
+    </application>
+
+</manifest>

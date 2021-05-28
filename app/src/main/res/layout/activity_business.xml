@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.seil.tppracticing.activity.Business">
+
+    <Button
+        android:id="@+id/bs_ch1"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/border"
+        android:text="1 month - 1 week"
+        android:textSize="15dp"
+        android:textColor="#ff000000"
+        android:onClick="bs_ch1_Clicked"
+        />
+
+    <Button
+        android:id="@+id/bs_ch2"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/border"
+        android:text="1 month - 2 week"
+        android:textSize="15dp"
+        android:textColor="#ff000000"
+        android:onClick="bs_ch2_Clicked"
+        />
+
+    <Button
+        android:id="@+id/bs_ch3"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/border"
+        android:text="1 month - 3 week"
+        android:textSize="15dp"
+        android:textColor="#ff000000"
+        android:onClick="bs_ch3_Clicked"
+        />
+
+    <Button
+        android:id="@+id/bs_ch4"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/border"
+        android:text="1 month - 4 week"
+        android:textSize="15dp"
+        android:textColor="#ff000000"
+        android:onClick="bs_ch4_Clicked"
+        />
+
+    <Button
+        android:id="@+id/bs_ch5"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/border"
+        android:text="2 month - 1 week"
+        android:textSize="15dp"
+        android:textColor="#ff000000"
+        android:onClick="bs_ch5_Clicked"
+        />
+
+    <Button
+        android:id="@+id/bs_ch6"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/border"
+        android:text="2 month - 2 week"
+        android:textSize="15dp"
+        android:textColor="#ff000000"
+        android:onClick="bs_ch6_Clicked"
+        />
+
+    <Button
+        android:id="@+id/bs_ch7"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350dp"
+        android:background="@drawable/border"
+        android:text="2 month - 3 week"
+        android:textSize="15dp"
+        android:textColor="#ff000000"
+        android:onClick="bs_ch7_Clicked"
+        />
+
+    <Button
+        android:id="@+id/bs_ch8"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:background="@drawable/border"
+        android:text="2 month - 4 week"
+        android:textSize="15dp"
+        android:textColor="#ff000000"
+        android:onClick="bs_ch8_Clicked"
+        />
+
+</RelativeLayout>
